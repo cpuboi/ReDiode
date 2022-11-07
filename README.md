@@ -8,7 +8,7 @@ First edit the two .conf files to configure the correct redis settings and the n
 #### SystemD Installation ####
 *Server on the inside of the data diode:*  
 ```./diode_receiver_systemd_installer.sh  ```  
-*Server on the outside of the data diode:*
+*Server on the outside of the data diode:*  
 ``` ./diode_sender_systemd_installer.sh```  
 
 
