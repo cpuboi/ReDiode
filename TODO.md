@@ -5,3 +5,4 @@
 - Add correct output logging. 
 - Make it easier to send files (without redis)
 - Remove password requirement
+- Add main file
