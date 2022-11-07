@@ -2,6 +2,14 @@
 Rediode or Redis Diode replicates a redis queue over a data diode.  
 It uses Reed Solomon error encoding and re-sending of the data to prevent dataloss.  
 
+
+## Installation ##
+On systemd based Linux distros:  
+Server on the inside of the data diode:  
+```./diode_receiver_systemd_installer.sh  ```  
+Server on the outside of the data diode:  
+``` ./diode_sender_systemd_installer.sh```  
+
 ## Sender ##
 The sender fetches items from a Redis queue, adds metadata and error encoding, then sends them through the diode.  
 
