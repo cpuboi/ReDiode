@@ -1,0 +1,6 @@
+# Redis
+redis
+
+# Reed Solomon error encoding
+reedsolo
+
